@@ -1,0 +1,165 @@
+a {color:#008542}
+a:hover {color:#c75b12}
+h3 a {font-family:"DIN Black", Helvetica, Arial, sans-serif;color:#000} 
+#panel a {display:block} 
+/*gallery*/
+#gallery {padding-top:50px;clear:both;width:960px;height:960px}
+#gallery figure {float:left;margin:0px;padding:0px;z-index:1100;height:134px;overflow:hidden;text-shadow:0 0 3px #000;filter:dropshadow(color=#000, offx=0, offy=0)}
+#gallery figure a {z-index:1101;display:block}
+#gallery figure a img {opacity:1;width:240px;height:134px}
+#gallery figure a figcaption {font-family:"DIN Black";letter-spacing:-0.4px;font-weight:normal;text-decoration:none;width:240px;height:134px;position:relative;top:-138px;background:url(/atec/img/el/black-70.png);-webkit-box-shadow:inset 0 0 0 0 rgba(0, 0, 0, .9);-moz-box-shadow:inset 0 0 0 0 rgba(0, 0, 0, .9);box-shadow:inset 0 0 0 0 rgba(0, 0, 0, .9);color:#fff}
+figure .tntitle {font-family:"DIN Black";font-weight:normal;display:block;position:relative;top:9px;font-size:22px;line-height:20px;margin:0 10px 15px 10px;width:220px;color:#fff}
+figure .tndesc {display:block;color:#fff;font-size:16px;line-height:16px;margin:2px 10px;padding:0px;width:220px}
+figure .kind {color:#fff;font-size:12px;width:220px;margin:10px}
+/*gallery feature*/
+#gallery figure.ftr {height:268px;width:480px;}
+#gallery figure.ftr a img {width:480px;height:268px}
+#gallery figure.ftr a figcaption {width:480px;height:268px;top:-272px;}
+figure.ftr .tntitle {width:450px;font-size:48px;line-height:44px}
+figure.ftr .tndesc {width:450px;font-size:28px;line-height:28px}
+figure.ftr .kind {width:450px;font-size:20px}
+.rt {float:right !important}
+/* social */
+#social {width:960px}
+#social a {font-weight:bold}
+#twitter {width:384px}
+#blog {float:left}
+#twitter {float:right;}
+#twitter ul {list-style:none;height:450px;padding:0px;margin:0px;overflow:hidden;border:1px solid #b4aca3;border-width:1px 1px 1px 1px;}
+.tweet_time a {font-size:12px;display:block;color:#b4aca3}
+#twitter li {border-bottom:1px solid #b4aca3;padding:8px 15px;} 
+#twitter-new {width:384px}
+#twitter-new h3 {padding-left:15px;}
+#twitter-new {float:right;}
+#twitter-new ul {list-style:none;padding:0px;margin:0px;}
+.tweet_time a {font-size:12px;display:block;color:#b4aca3}
+#twitter-new li {border:1px solid #b4aca3;height:103px;padding:8px 15px;} 
+.tweet_avatar{
+	float:left;
+	height:100px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+/* extras */
+#wrapper {position:relative;margin:0 auto;width:960px;overflow:hidden}
+#content {position:relative;padding:400px 0px;z-index:1000}
+/*section {position:relative;margin-bottom:60px;padding-top:40px;overflow:hidden}*/
+#lenticular-header, #lenticular-footer {position:fixed;width:960px;z-index:-10}
+#lenticular-header div, #lenticular-footer div {position:absolute;width:940px}
+#lenticular-header {top:80px;height:350px}
+#lenticular-header div {left:0px;top:0px;height:350px}
+#lenticular-footer {bottom:250px;height:355px}
+#lenticular-footer div {left:0px;bottom:0px;height:355px}
+/* rss elements */
+#main #container #content #wall {width:1000px;margin:50px auto}
+#main #container #content #wall #panels {width:1000px;height:675px;overflow:hidden;position:relative;margin-bottom:20px}
+#main #container #content #wall #panels .panel {position:absolute;top:0px;left:0px;display:none}
+#main #container #content #wall #panels .panel.one-by-three a.slide-0 {margin:0 0 15px 0}
+#main #container #content #wall #panels .panel.one-by-three a.slide-1 {margin:0 10px 0 0}
+#main #container #content #wall #panels .panel.one-by-three a.slide-2 {margin:0 10px 0 0}
+#main #container #content #wall #panels .panel.two-by-three a.slide-0, #main #container #content #wall #panels .panel.alt-two-by-three a.slide-0 {margin:0 10px 10px 0}
+#main #container #content #wall #panels .panel.two-by-three a.slide-1, #main #container #content #wall #panels .panel.alt-two-by-three a.slide-1 {margin:0 0 10px 0}
+#main #container #content #wall #panels .panel.two-by-three a.slide-2, #main #container #content #wall #panels .panel.alt-two-by-three a.slide-2 {margin:0 10px 0 0}
+#main #container #content #wall #panels .panel.two-by-three a.slide-3, #main #container #content #wall #panels .panel.alt-two-by-three a.slide-3 {margin:0 10px 0 0}
+#main #container #content #wall #panels .panel.current {display:block;overflow:hidden}
+#main #container #content #wall #panels .panel a {float:left}
+#main #container #content #wall #panels .panel a img {display:block;border:1px solid #202020;-webkit-transition:opacity 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);-moz-transition:opacity 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);-o-transition:opacity 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);transition:opacity 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);opacity:0}
+#main #container #content #wall #panels .panel a img.fadeup {opacity:1}
+#main #container #content #wall #panels .panel a:hover img {border-color:#FEB800;-webkit-transition:all 200ms ease;-moz-transition:all 200ms ease;-o-transition:all 200ms ease;transition:all 200ms ease}
+#main #container #content #wall .tabs {background:#2b2c2d;position:relative;height:27px}
+#main #container #content #wall .tabs .items {position:absolute;z-index:2}
+#main #container #content #wall .tabs .items a {text-decoration:none;background:#000;float:left;margin-left:2px;height:25px;line-height:25px;padding:0 10px;color:#fff;-webkit-transition:color 0.1s ease-in-out 1s ease-in-out;-moz-transition:color 0.1s ease-in-out 1s ease-in-out;-o-transition:color 0.1s ease-in-out 1s ease-in-out;transition:color 0.1s ease-in-out 1s ease-in-out}
+#main #container #content #wall .tabs .items a.active, #main #container #content #wall .tabs .items a:hover {color:#d81e05}
+#main #container #content #wall .tabs .items a:first-child {margin-left:0}
+#main #container #content #wall .tabs .progress {background:#ffb612;width:0px;height:27px}
+#main #container #content #wall .tabs .pause {border:1px solid red;background:url(pause.png) no-repeat;position:absolute;right:5px;top:3px;z-index:3;width:18px;height:18px;text-indent:-9999em}
+#main #container #content #wall .tabs .pause:hover {background-position:0 -18px}
+#main #container #content #wall .tabs .pause:active {background-position:0 -36px}
+#main #container #content #wall .tabs .pause.paused {background-position:-18px 0}
+#main #container #content #wall .tabs .pause.paused:hover {background-position:-18px -18px}
+#main #container #content #wall .tabs .pause.paused:active {background-position:-18px -36px}
+/* Events Stuff */
+#events {width:312px;display:block;float:left}
+#events h3 {padding-left:15px;}
+.even, .odd {border:1px solid #b4aca3;border-width:1px 1px 1px 1px;padding:8px 15px;}
+.startTime, .ccDash, .stopTime, .stopDate{
+	display:none;
+}
+.formatTime{
+	float:left;
+	display:block;
+	height:75px;
+	padding-right:10px;
+}
+.extra_odd, .extra_even {
+	clear:both;
+}
+.startDay{
+	display:block;
+	clear:both;
+	font-size:1.5em;
+}
+.startMonth{
+	display:block;
+	clear:both;
+}
+.day-of-week{
+	display:none;
+}
+/* blog stuff */
+#blogposts {width:332px;display:block;float:left; margin:0 0px;}
+#blogposts h3 {padding-left:15px;}
+#blogposts time{
+	float:left;
+	display:block;
+	height:75px;
+	padding-right:10px;
+}
+#blogposts .postDay{
+	display:block;
+	clear:both;
+	font-size:1.5em;
+	text-align:center;
+}
+#blogposts .postMonth{
+	display:block;
+	clear:both;
+}
+#fblog {width:100%;}
+.fpost{
+	height:65px;
+}
+.fpost{border:1px solid #b4aca3;border-width:1px 1px 1px 1px;padding:8px 15px}
+#bblog {width:576px;height:384px}
+#bblog .post {}
+#bblog * {display:block;float:left}
+.post {border:1px solid #b4aca3;border-width:1px 0 0 1px;width:190px;position:relative;overflow:hidden;float:left}
+.post figure {position:absolute;top:0px;left:0}
+.post img {max-height:192px;max-width:162px;opacity:.8;z-index:0;position:absolute;top:120px;left:15px;-webkit-transition:all 125ms ease-in;-moz-transition:all 125ms ease-in;-o-transition:all 125ms ease-in;transition:all 125ms ease-in}
+.post:hover img {top:130px;opacity:.33;-webkit-transition:all 125ms ease-in;-moz-transition:all 125ms ease-in;-o-transition:all 125ms ease-in;transition:all 125ms ease-in}
+.post h4 {position:absolute;top:0px;margin-top:20px;left:15px;width:160px;height:126px;z-index:1;font-weight:normal;letter-spacing:-.021em;font-size:22px;line-height:18px;color:#000}
+.post time {position:absolute;bottom:15px;left:15px;z-index:1;background:url(/atec/img/el/black-70.png);padding:4px 5px;font-size:12px}
+.post a {color:#fff;text-decoration:none;display:block;width:192px;height:384px;z-index:-100;overflow:hidden}
+.post a:hover {height:192px;width:190px;background:#fff;-webkit-box-shadow:inset 0 0 5px 0 rgba(0, 0, 0, .25);-moz-box-shadow:inset 0 0 5px 0 rgba(0, 0, 0, .25);box-shadow:inset 0 0 5px 0 rgba(0, 0, 0, .25)}
+.p-1 {height:385px;width:193px;border-width:1px 0 1px 1px;}
+.p-1 a:hover {width:193px;height:385px;}
+.p-1 h4 {height:276px;font-size:34px;line-height:32px;letter-spacing:-.039em}
+.p-1 img {top:305px} 
+.p-1:hover img {top:325px} 
+.p-2,.p-3,.p-4,.p-5 {height:192px}
+.p-3 {border-width:1px 0 0 1px}
+.p-4,.p-5 {border-width:1px 0 1px 1px}
+/* mailchimp subscribe */
+#mc-embedded-subscribe-form {width:576px;height:65px;background:#EDE9E0;clear:left}
+input#mce-EMAIL {float:left;width:438px;border:1px solid #fff;height:26px;margin:15px 0 0 17px;padding:2px;outline:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;}
+input#mce-EMAIL:focus {border:1px solid #b4aca3}
+input#mc-embedded-subscribe {width:88px;height:32px;display:block;float:left;background:#b4aca3;margin:15px 0 0 0px;border:none;-moz-border-radius-topleft:0px;-moz-border-radius-topright:3px;-moz-border-radius-bottomright:3px;-moz-border-radius-bottomleft:0px;-webkit-border-radius:0px 3px 3px 0px;border-radius:0px 3px 3px 0px}
+input#mc-embedded-subscribe:hover {background:#69BE28}
+/* new mc form */
+#mc-embedded-subscribe-form-new {width:100%;height:70px;background:#EDE9E0;clear:left}
+input#mce-EMAIL-new {float:left;width:210px;border:1px solid #fff;height:26px;margin:15px 0 0 17px;padding:2px;outline:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;}
+input#mce-EMAIL-new:focus {border:1px solid #b4aca3}
+input#mc-embedded-subscribe-new {width:88px;height:32px;display:block;float:left;background:#b4aca3;margin:15px 0 0 0px;border:none;-moz-border-radius-topleft:0px;-moz-border-radius-topright:3px;-moz-border-radius-bottomright:3px;-moz-border-radius-bottomleft:0px;-webkit-border-radius:0px 3px 3px 0px;border-radius:0px 3px 3px 0px}
+input#mc-embedded-subscribe-new:hover {background:#69BE28}
+/* footer */
+footer {position:absolute;bottom:0;left:50%;margin-left:-480px !important;}

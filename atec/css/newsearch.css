@@ -1,0 +1,36 @@
+body {font-family:"PF DIN Light", sans-serif} 
+
+#search {background:url(../img/el/search.png) no-repeat 2px 23px;width:1px;height:20px;display:block}
+#search input {outline:none}
+#box {position:relative;z-index:999999; opacity:1 !important;}
+.hidden {display:none}
+
+section#mainc {padding-top:150px} 
+#intro {width:210px;padding:0 20px;position:fixed;top:64px;background:teal;float:left;background:url(../img/bg-diagonal.png)}
+#intro ul, #intro li {padding:0;list-style:none}
+#intro li {text-transform:lowercase;border-bottom:1px solid #000;padding:1px 0;text-align:right} 
+
+#grid {width:680px;float:right;padding:0;margin:0}
+h2 {font:normal 64px/34px "PF Din Black", sans-serif;letter-spacing:-.065em}
+
+#searchForm {width:680px}
+#searchForm input#s {width:550px;font-size:18px;font-family:"PF Din", sans-serif;}
+#searchInContainer {position:relative;font-size:12px;width:300px;padding:8px 0}
+ul.icons {position:relative;list-style:none;font-size:12px}
+ul.icons li { float:left;padding:3px 4px;border:1px solid #ccc;margin:0 8px 0 0;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;}
+ul.icons .active {color:#E98300;border:1px solid #e98300;}
+
+#resultsDiv {clear:both; padding:45px 0 0 0}
+.imageResult {float:left;padding:5px; margin:0 3px 3px 0;font-size:11px;text-align:center}
+.imageResult:hover {background:#fff;-webkit-box-shadow:0px 1px 2px 0px rgba(0, 0, 0, .25)
+-moz-box-shadow:0px 1px 2px 0px rgba(0, 0, 0, .25);box-shadow:0px 1px 2px 0px rgba(0, 0, 0, .25);}
+
+.webResult {clear:both;padding:12px 2px;border-top:1px dotted #aeaeae}
+.webResult * {margin:0;padding:0}
+.webResult h4 a {font-family:"PF Din", sans-serif;font-weight:normal;font-size:20px}
+.webResult p {padding:8px 0 2px 0}
+.webResult a.url {font-size:12px;color:#8f8f8f}
+.webResult b {font-family:"PF Din Bold", sans-serif}
+
+#more {clear:both;display:block;width:100%;height:35px;margin-top:8px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;background:#333 url(/atec/img/el/more.png) no-repeat 50% 50%}
+#more:hover {background-color:#E98300;cursor:pointer}

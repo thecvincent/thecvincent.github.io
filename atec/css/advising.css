@@ -1,0 +1,16 @@
+#advising {padding-top:88px}
+#advising h2 {font:normal 64px/64px "PF Din Black", sans-serif;letter-spacing:-.065em;text-transform:uppercase}
+#advising #intro {font-family:"PF Din", sans-serif}
+
+h2, #intro {width:780px;margin:0 auto;text-align:center}
+#intro {font-size:22px} 
+
+#lft {float:left;width:640px;}
+#lft ul {padding-left:25px;}
+#rgt {float:right;width:300px;}
+
+#rss ul, .even, .odd{list-style:none;border:1px solid #ccc;border-width:1px 1px 0 1px;width:300px;}
+#rss li, #eve li{border-bottom:1px solid #ccc;font-size:12px;padding:4px;}
+#rss li a, .even a, .odd a{font-size:14px;}
+#blg ul{list-style:none}
+#blg li {width:300px;}

@@ -1,0 +1,1 @@
+$("#box").css({opacity:0});$("#search").focusin(function(){$("#box").animate({width:"140px",opacity:"1"},275,"easeInCubic");$(".item").animate({paddingRight:"10px"},275,"easeInCubic")});$("#search").focusout(function(){$("#box").animate({width:"15px",opacity:".0"},425,"easeOutQuart");$(".item").animate({paddingRight:"29px",opacity:"1"},425,"easeOutQuart")})

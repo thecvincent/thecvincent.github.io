@@ -1,0 +1,36 @@
+section#mainc {padding-top:150px} 
+#intro {width:210px;padding:0 20px 20px 20px;position:fixed;top:64px;background:teal;float:left;background:url(../img/bg-diagonal.png)}
+#intro ul, #intro li {padding:0;list-style:none}
+#intro li {text-transform:lowercase;border-bottom:1px solid #000;padding:1px 0;text-align:right} 
+#intro a {color:#C75B12}
+#intro a:hover {color:#008542}
+
+#grid {width:685px;float:right;padding:0;margin:0}
+#cssswitcher {height:35px;background:#fff;width:670px} 
+#cssswitcher, #cssswitcher li {list-style:none;margin:0;padding:0}
+#cssswitcher li {float:left;margin:5px 0 0 10px;text-transform:lowercase;width:450px}
+#cssswitcher li#grid, #cssswitcher li#list {float:right;width:65px;margin:5px 10px 0 0;font-size:14px}
+
+#cssswitcher li a {display:block;width:65px;padding:3px;height:19px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}
+#cssswitcher li#grid a {/*background:teal*/}
+h2 {font:normal 64px/34px "PF Din Black", sans-serif;letter-spacing:-.065em}
+
+/* styles for profile pages */
+#profile {width:685px;float:right;padding:0;margin:0}
+#info {float:left;width:160px}
+#bio  {float:right;width:485px;padding:20px;background:#fff}
+h2 {font:normal 64px/34px "PF Din Black", sans-serif;letter-spacing:-.065em}
+h3 {font-size:24px;font-family:"DIN Black", sans-serif;font-weight:normal;text-transform:none;padding:0 !important;margin:0 !important;}
+h4 {font-family:"DIN Black", sans-serif;font-weight:normal;margin-bottom:3px;clear:both}
+#profile-title {padding:5px 0 12px 0;border-bottom:1px dotted #D5D2CA}
+#info {font-size:13px}
+
+#info dt {display:block;width:48px;float:left;clear:both}
+#info dd {display:block;float:left;width:100px}
+
+#details {margin:8px 8px 0 0}
+#details h4 {border-top:1px dotted #efefef;padding:6px 0 3px 0;margin:0}
+#details p  {margin:2px 0 8px 0}
+
+#inthenews ul {list-style:none;font-size:15px}
+#inthenews li {padding-bottom:12px}

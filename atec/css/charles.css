@@ -1,0 +1,213 @@
+.news-img{
+	max-width:200px !important;
+	max-height:200px !important;
+
+	float:left;
+	padding-right:15px;
+}
+.news-date{
+font-size: 12px;
+text-transform: uppercase;
+font-family: "DIN Regular", sans-serif;
+}
+
+#courses menu {
+	margin:0 auto;
+	text-align: center;	
+	padding: 0;
+}
+#courses menu ul{
+	display:inline-block;
+	list-style: none;
+	}
+
+#courses menu li {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: "DIN Bold", sans-serif;
+	list-style: none;
+	float:left;
+}
+#courses menu li a {
+	background: white;
+	border: 1px solid #f3f3f3;
+	border-radius: 4px;
+	padding: 2px 4px;
+	float: left;
+	display: inline-block;
+	margin: 0 12px 8px 0;
+	color: #444;
+}
+#courses menu li a:hover, #courses menu li .selected{
+	background: #FFB612;
+	border: 1px solid #FFB612;
+	color: white;
+}
+#portfolio menu {
+	margin:0 auto;
+	text-align: center;	
+	padding: 0;
+}
+#portfolio menu ul{
+	display:inline-block;
+	list-style: none;
+	}
+
+#portfolio menu li {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: "DIN Bold", sans-serif;
+	list-style: none;
+	float:left;
+}
+#portfolio menu li a {
+	background: white;
+	border: 1px solid #f3f3f3;
+	border-radius: 4px;
+	padding: 2px 4px;
+	float: left;
+	display: inline-block;
+	margin: 0 12px 8px 0;
+	color: #444;
+}
+#portfolio menu li a:hover, #portfolio menu li .selected{
+	background: #FFB612;
+	border: 1px solid #FFB612;
+	color: white;
+}
+#acadcal h4{
+	font-size:18px;
+	margin-top:16px;
+}
+#acadcal li{
+	font-size:16px;
+}
+
+#advising figure{
+	display:block;
+	clear:both;
+	margin-bottom:1em;
+	font-size:18px;
+	line-height:20px;
+}
+#advising figure img {
+width: 100px;
+padding-right: 15px;
+float: left;
+}
+#advising .facname{
+	font-weight:bold;
+}
+.news-collecttion-boxes h4{
+	color:white;
+	font-size:1.5em;
+position: absolute;
+z-index: 9;
+bottom: 20px;
+padding-left: 15px;
+text-align:left;
+}
+.news-collecttion-boxes img{
+	width:100%;
+	padding-bottom:15px;
+}
+
+#faculty-info{
+	-ms-word-break: break-all;
+     word-break: break-all;
+
+     /* Non standard for webkit */
+     word-break: break-word;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+}
+.faculty-title {
+border-bottom: none;
+}
+#people hr
+{
+	margin-top:0;
+	margin-bottom:1em;}#searchForm {
+width: 680px;
+}
+#searchForm {
+width: 100%;
+}
+#submitButton{
+		font-size: 18px;
+	font-family: "DIN Bold", sans-serif;
+	list-style: none;
+	width:10%;
+}
+#searchForm input#s {
+width: 88%;
+}
+#news .cat {
+font-size: 12px;
+text-transform: uppercase;
+font-family: "DIN Bold", sans-serif;
+margin: 0 0 10px 0;
+background: white;
+border: 1px solid #f3f3f3;
+border-radius: 4px;
+padding: 2px 4px;
+display: inline-block;
+margin: 0 12px 8px 0;
+color: #444;
+}
+
+#news .cat a:hover, #news .cat:hover {
+background: #FFB612;
+border: 1px solid #FFB612;
+color: white;
+}
+#news #mce-EMAIL-new{
+	width:78%;
+		font-size: 16px;
+}
+#news #mc-embedded-subscribe-new{
+	width:20%;
+	font-size: 16px;
+font-family: "DIN Bold", sans-serif;
+list-style: none;
+}
+@media (max-width: 768px ) {
+#news #mc-embedded-subscribe-new{
+	width:200px;
+}
+}
+body#news .news-collecttion-boxes h5 {
+	color:white;
+}
+body#news .cat-meta {
+font-size: 1em !important;
+position:relative;
+display: block;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+bottom:0%;
+}
+body#news .cat-box {
+	width:90%;
+	display:block;
+position:absolute;
+bottom:10%;
+text-align:center;
+
+}
+body#news .cat-num {
+	color:white;
+}
+body#news .cat-num:hover {
+	color:white;
+}
+body#news .cat-desc {
+	display:none;
+
+}
+body#news .cat-meta h5 {
+	margin-bottom:0;
+}

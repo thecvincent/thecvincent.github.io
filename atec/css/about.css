@@ -1,0 +1,101 @@
+@import url('/atec/css/fonts.css');
+/* reset */
+html {margin:0;padding:0;height:100%;overflow-x:hidden}
+body {margin:0;padding:0;width:100%;min-width:1000px;overflow-x:hidden}
+* {margin:0;padding:0;outline:none}
+article,aside,canvas,details,figcaption,figure, footer,header,hgroup,menu,nav,section,summary, mark {display:block}
+body, div, dl,dt,dd, ul,ol,li, h1,h2,h3,h4,h5,h6, pre, form,fieldset, input,textarea, a, p,blockquote, th,td {margin:0;padding:0;vertical-align:baseline}
+img {border:0}
+address, caption, cite, code, dfn, em, strong, th, var {font-style:normal;font-weight:normal}
+ol,ul {list-style:none}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal}
+
+/* global */
+* {line-height:20px;font-weight:normal;font-size:14px;font-size-adjust:0.49;font-weight:100 !important;font-style:normal}
+p {margin:0 0 20px 0;font-size:14px;line-height:24px}
+a {font-size:14px;color:#4f9426;text-decoration:none} 
+a:hover {color:#888}
+a.outlink {padding-right:16px;background:transparent url(/atec/about/img/linkout.gif) 100% 50% no-repeat;border-bottom:1px dotted #222}
+h2 {font-size-adjust:0;font-weight:normal;font-style:normal;font-family:"PF DIN Bold", sans-serif;font-size:48px;line-height:45px;padding-bottom:35px}
+
+/* @Wrapper */
+div#wrapper {width:100%;max-width:1920px;min-width:100px;padding:0;margin:0 auto;position:relative}
+
+/* @Masthead */
+#masthead {padding:50px 0 50px 50px;width:900px;margin:0 auto;height:50px;overflow:hidden}
+header#masthead h1 {display:block;background:url(/atec/about/img/logo_sml.jpg) 0 0 no-repeat;width:365px;height:244px;overflow:hidden}
+
+/* @Nav */
+nav#main {position:fixed;right:20px;top:50%;z-index:999999}
+nav#main li {height:20px;position:relative}
+nav#main a {display:block;width:20px;height:20px;background:red url(/atec/about/img/dotnav.png) 0 100% no-repeat;text-indent:-9000px;overflow:hidden}
+nav#main a:hover, nav#main li.active a {background-position:0 0}
+nav#main h1 {display:none;opacity:0;position:absolute;right:25px;font-size:25px;top:-4px;white-space:nowrap;padding:0 6px 0 0;background:url(/atec/about/img/arrow_right.png) 100% 50% no-repeat}
+nav#main span {display:block;background:#4f9426;color:#fff;padding:4px 8px;white-space:nowrap}
+nav#main li:hover h2 {xdisplay:block}
+
+/* @GlobalStories */
+.story {min-height:900px;position:relative;width:100% !important;min-width:1000px;margin:0;padding:0}
+.story article {width:900px;margin:0 auto;min-height:100%;position:relative}
+.story header {position:absolute;left:0;top:0;width:400px;z-index:99999}
+.story .article-content {z-index:1}
+.story header h2 {}
+.story header p {width:300px;color:black;font-size:18px;font-family:"PF DIN Medium", sans-serif}
+.story header p a {color:#222;border-bottom:1px dotted #222}
+.story header a {font-size:15px;color:#222 !important;border-bottom:1px dotted #222}
+.story header a:hover {color:#000 !important;border-bottom:0}
+
+/* @Clear */
+.clear-self:after {content:" ";display:block;clear:both;visibility:hidden;line-height:0;height:0;margin-bottom:0}
+.clear-self {display:block}
+html[xmlns] .clear-self {display:block}
+* html .clear-self {height:1%}
+
+/* reset */
+
+body {background:#3f3f3f}
+blockquote {font:normal 36px/42px "PF DIN Light", sans-serif}
+.story article {z-index:999}
+/* 1 - A Bold Vision */
+#whatis {width:100%;background:black ;margin:0;height:1200px;overflow:hidden}
+#whatis img {left:0;position:absolute;top:0}
+#vc {position:absolute;left:50%;top:30%;margin-left:-405px;margin-top:-270px;width:810px;z-index:99999;color:#fff}
+#vc h2 {text-align:center;font-family:"PF DIN Bold", sans-serif;font-size:64px;letter-spacing:-.09em;text-transform:lowercase	}
+
+/* 2 - Building on Success	 */
+#success {width:100%;background:url(/atec/about/img/bold/lg_bg.jpg) 50% 50% no-repeat fixed;margin:0;height:1600px;overflow:hidden}
+#success header {top:100px;background:url(/atec/about/img/bold/bg.png) no-repeat;width:936px;height:1144px}
+#success header h2 {font-family:"PF DIN Bold", sans-serif}
+#success header h2, #success header p {width:500px;margin:0 auto 20px auto;font-family:"PF DIN Medium", sans-serif} 
+#success header p:first-child {font-size:24px !important}
+#success .bg {position:absolute;width:1600px;height:1600px;top:0;left:100px;background:url(/atec/about/img/bold/fg.png) 0 0 no-repeat fixed}
+#success h2 {letter-spacing:-.04em}
+
+/* 3 - Outstanding Faculty */
+#faculty {width:100%;height:1200px;overflow:hidden;background:#69be28;background:-moz-radial-gradient(center, ellipse cover, #c9dd03 0%, #69be28 100%);background:-webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#c9dd03), color-stop(100%,#69be28));background:-webkit-radial-gradient(center, ellipse cover, #c9dd03 0%,#69be28 100%);background:-o-radial-gradient(center, ellipse cover, #c9dd03 0%,#69be28 100%);background:-ms-radial-gradient(center, ellipse cover, #c9dd03 0%,#69be28 100%);background:radial-gradient(center, ellipse cover, #c9dd03 0%,#69be28 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9dd03', endColorstr='#69be28',GradientType=1 );
+}
+#faculty header {top:300px}
+#faculty .bg {position:absolute;width:100%;height:1600px;top:0;left:0%}
+
+#faculty section.article-content {border:1px solid #69be28;padding:25px;width:510px;height:550px;position:relative;top:250px;left:360px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-shadow:inset 0 1px 3px 1px rgba(0, 0, 0, .3);-moz-box-shadow:inset 0 1px 3px 1px rgba(0, 0, 0, .3);box-shadow:inset 0 1px 3px 1px rgba(0, 0, 0, .3)}
+#faculty header p {font-size:28px;line-height:36px}
+
+
+/* 4 - Art of Tomorrow */
+#art {background:url(/atec/about/img/bg_nycareccenter.jpg) 50% 0 no-repeat fixed;margin:0;height:1200px}
+#art header {top:300px}
+
+/* 5 - Student Success */
+#student-success {height:1600px;background:yellow url(/atec/about/img/bg_homelaessworldcup.jpg) 50% 0 no-repeat fixed}
+#student-success header {left:0;top:300px}
+#student-success .bg {position:absolute;width:1600px;height:1600px;top:0;left:0;background:url(/atec/about/img/fg_homelesswaorldcup.png) 50% 0 no-repeat fixed}
+
+/* 6-Next */
+#next {width:100%;background:blue url(/atec/about/img/bg_soaweto.jpg) 50% 0 no-repeat fixed;height:1600px}
+#next header {top:400px;left:600px}
+#next .bg {position:absolute;width:1600px;height:1600px;top:0;left:0%;background:url(/atec/about/img/fg_sowaeto.png) 50% 0 no-repeat fixed}
+#next .bg .padder {margin:0 auto;padding:250px;width:600px} 
+
+#flowpanes {background:red;width:500px;height:560px;padding:0;margin:0;overflow:hidden;position:relative}
+#scrim {width:9000px;position:absolute}
+#flowpanes .items {display:block;width:500px;height:560px;float:left !important}

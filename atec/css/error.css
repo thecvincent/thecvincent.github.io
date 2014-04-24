@@ -1,0 +1,14 @@
+html, body {background-position:50% 0;height:100%}
+#cont {min-height:100%;padding-top:88px}
+#error {padding:30px;width:734px;height:390px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;margin:0 auto;border:3px solid #878B9A}
+h2{font-family:"PF DIN", sans-serif;text-transform:lowercase;font-weight:normal;font-size:32px}
+p {font-family:"PF DIN", sans-serif}
+#note {float:left;width:260px;margin-right:30px}
+
+#hm {font-family:"DIN Pro Black";float:left;width:240px;font-size:22px;display:block}
+#wm {float:right;background:none;width:125px}
+
+#nv {clear:both}
+#useful {float:right;width:420px}
+#useful ul, #useful li {list-style:none;padding:0;margin:0}
+#useful li {padding:0 10px 0 0;text-transform:uppercase;font-size:14px;font-family:"DIN Bold", sans-serif}

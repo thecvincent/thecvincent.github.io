@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+<title>Arts and Technology at UT Dallas</title>
+<!--#include virtual="/atec/inc/head.html" -->
+<link rel="stylesheet" type="text/css" href="css/udt_media_queries.css" />
+<script type="text/javascript" src="/atec/js/jquery.masonry.js"></script>
+<script defer type="text/javascript">
+/*device check
+---------------------*/
+var isMobile = false;
+if( navigator.userAgent.match(/Android/i) || 
+	navigator.userAgent.match(/webOS/i) ||
+	navigator.userAgent.match(/iPhone/i) || 
+	navigator.userAgent.match(/iPad/i)|| 
+	navigator.userAgent.match(/iPod/i) || 
+	navigator.userAgent.match(/BlackBerry/i)){
+		isMobile = true;				
+}
+/*init*/
+$(function(){
+
+	var cols = 3
+	var masonry = $('#grid');
+	calculateCols();
+
+	// initialize masonry
+	masonry.imagesLoaded(function(){
+		
+		masonry.masonry({
+			itemSelector: '.thumb',
+			isResizable: true,
+			columnWidth:Math.floor((masonry.width()/ cols))
+		  });
+		
+	});
+	
+  /*resize*/
+  $(window).resize(function(){
+		
+		
+		calculateCols();
+		
+		masonry.imagesLoaded(function(){
+		
+		  masonry.masonry({
+			itemSelector: '.thumb',
+			isResizable: false,
+			 isAnimated: false,
+			columnWidth:Math.floor((masonry.width() / cols))
+		  });
+	
+		});
+		
+	});
+	
+	function calculateCols (){
+		if(masonry.width() <= 426){
+			 cols=2;
+		}else{
+			cols=3;
+		}
+	}
+});
+</script>
+</head>
+<body id="home">
+<!--start header--> 
+<!--#include virtual="/atec/inc/header.html" --> 
+<!--start content-->
+<div id="content-wrapper">
+  <section class="homepage"> 
+    <!--start section title-->
+    <div class="col-md-10">
+      <h1 id="typeme">ATEC merges the innovation processes of artists, scientists and engineers, exploring experimental models through new technologies.</h1>
+    </div>
+    <!--start grid-->
+    <article class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <div id="grid" class="clearfix">
+
+                          <div class="thumb thumb-type-4"> <a href="news" data-caption="caption"> <img src="img/home/news.jpg" alt="project 1"/>
+              <figcaption>News</figcaption>
+              </a> </div>
+                          <div class="thumb thumb-type-2"> <a href="portfolio" data-caption="caption"> <img src="img/home/portfolio.jpg" alt="project 1"/>
+              <figcaption>Portfolio</figcaption>
+              </a> </div>
+                                     <div class="thumb thumb-type-3"> <a href="research" data-caption="caption"> <img src="img/home/research.jpg" alt="project 1"/>
+              <figcaption> Research</figcaption>
+              </a> </div>
+              
+                          <div class="thumb thumb-type-1"> <a href="about/mission" data-caption="caption"> <img src="img/home/about.jpg" alt="project 1"/>
+              <figcaption>About ATEC</figcaption>
+              </a> </div>
+              
+                  <div class="thumb thumb-type-1"> <a href="academics/plans" data-caption="caption"> <img src="img/home/academics.jpg" alt="project 1"/>
+              <figcaption>Degrees</figcaption>
+              </a> </div>  
+              
+              
+                 <div class="thumb thumb-type-4"> <a href="/atec/x/" data-caption="caption"> <img src="img/home/x-models.png" alt="Models of X">
+<figcaption>Models of X</figcaption>
+              </a> </div>  
+              
+                               
+                          <div class="thumb thumb-type-4"> <a href="http://www.utdallas.edu/lectureseries/about/" data-caption="caption"> <img src="img/home/lecture-series.jpg" alt="project 1"/>
+              </a> </div>
+
+            <div class="thumb thumb-type-1"> <a href="about/building" data-caption="caption"> <img src="img/home/building-sign.jpg" alt="project 1"/>
+              <figcaption>Our New Home</figcaption>
+              </a> </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+</div>
+<!--start footer--> 
+<!--#include virtual="/atec/inc/footer.html" --> 
+<!--#include virtual="/atec/inc/tail.html" -->
+<script type="text/javascript">
+var blurbs = Array(
+"ATEC merges the innovation processes of artists, scientists and engineers, exploring experimental models through new technologies.",
+"ATEC merges the innovation processes of artists, scientists and engineers, exploring experimental models through new technologies.",
+"ATEC merges the innovation processes of artists, scientists and engineers, exploring experimental models through new technologies.");
+var blurb = blurbs[Math.floor(Math.random()*blurbs.length)];
+$("#typeme").html(blurb);
+</script>
+</body>
+</html>

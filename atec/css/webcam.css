@@ -1,0 +1,14 @@
+#wc {padding-top:88px}
+#wc h2 {font:normal 64px/64px "PF Din Black", sans-serif;letter-spacing:-.065em;text-transform:uppercase}
+#wc #intro {font-family:"PF Din", sans-serif}
+
+h2, #intro {width:780px;margin:0 auto;text-align:center}
+#intro {font-size:22px}
+
+#camview iframe {webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 0 2px 0 rgba(0, 0, 0, .3);-moz-box-shadow:0 0 2px 0 rgba(0, 0, 0, .3);box-shadow:0 0 2px 0 rgba(0, 0, 0, .3);}
+small {font-size:12px}
+
+#camview {float:left;width:640px;margin:0 15px 0 0;padding-bottom:25px;}
+#sidebar {float:right;width:300px} 
+#views {clear:both;border-top:1px solid #777;padding:25px 0;}
+#views img {padding:25px 0 0 0;}
