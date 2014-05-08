@@ -1,12 +1,12 @@
 ;(function(w, d3, undefined){
     "use strict";
 
-    var width, height;
-    function getSize(){
-        width = w.innerWidth,
-        height = w.innerHeight,
+    var width, height,
 								speed = 500,
         start = Date.now();
+    function getSize(){
+        width = w.innerWidth,
+        height = w.innerHeight;
 
         if(width === 0 || height === 0){
             setTimeout(function(){
