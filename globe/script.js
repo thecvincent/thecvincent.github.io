@@ -35,9 +35,6 @@
             .translate([width / 2, height / 2]);
 												
 
-        var scale0 = projection.scale();
-
-
 
         //Setup zoom behavior
         var zoom = d3.behavior.zoom(true)
