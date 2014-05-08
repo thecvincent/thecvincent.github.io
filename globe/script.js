@@ -4,7 +4,9 @@
     var width, height;
     function getSize(){
         width = w.innerWidth,
-        height = w.innerHeight;
+        height = w.innerHeight,
+								speed = 1e-2,
+        start = Date.now();
 
         if(width === 0 || height === 0){
             setTimeout(function(){
@@ -116,7 +118,10 @@
             }
         }
 
-
+  d3.timer(function() {
+    projection.rotate([speed * (Date.now() - start), 0]);
+  });
+		
         function createStars(number){
             var data = [];
             for(var i = 0; i < number; i++){
