@@ -5,7 +5,7 @@
     function getSize(){
         width = w.innerWidth,
         height = w.innerHeight,
-								speed = 1e-2,
+								speed = 500,
         start = Date.now();
 
         if(width === 0 || height === 0){
@@ -36,7 +36,9 @@
             .mode("orthographic")
             .translate([width / 2, height / 2]);
 												
-
+								d3.timer(function() {
+    projection.rotate([speed * (Date.now() - start), 0]);
+        });
 
         var scale0 = projection.scale();
 
