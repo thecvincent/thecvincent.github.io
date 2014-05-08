@@ -139,10 +139,6 @@
                     geometry: {
                         type: 'Point',
                         coordinates: randomLonLat()
-                    },
-                    type: 'Feature',
-                    properties: {
-                        radius: Math.random() * 1.5
                     }
                 });
             }
