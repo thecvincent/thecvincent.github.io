@@ -22,7 +22,7 @@
 
         //Setup path for outerspace
         var space = d3.geo.azimuthal()
-            .mode("stereographic")
+            .mode("gnomonic")
             .translate([width / 2, height / 2]);
 
         space.scale(space.scale() * 3);
