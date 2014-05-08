@@ -2,7 +2,7 @@
     "use strict";
 
     var width, height,
-								speed = 500,
+								speed = 50000,
         start = Date.now();
     function getSize(){
         width = w.innerWidth,
