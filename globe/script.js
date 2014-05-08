@@ -29,6 +29,18 @@
             .projection(space)
             .pointRadius(1);
 
+        //Setup path for globe
+        var projection = d3.geo.azimuthal()
+            .mode("orthographic")
+            .translate([width / 2, height / 2]);
+												
+
+        var scale0 = projection.scale();
+
+        var path = d3.geo.path()
+            .projection(projection)
+            .pointRadius(2);
+
         //Setup zoom behavior
         var zoom = d3.behavior.zoom(true)
             .translate(projection.origin())
