@@ -79,9 +79,9 @@
 
         //Create the base globe
         var backgroundCircle = svg.append("circle")
-            .attr('cx', 0)
-            .attr('cy', 0)
-            .attr('r', 0)
+            .attr('cx', width / 2)
+            .attr('cy', height / 2)
+            .attr('r', projection.scale())
             .attr('class', 'globe')
             .attr("filter", "url(#glow)")
             .attr("fill", "url(#gradBlue)");
@@ -100,9 +100,7 @@
 
         //Redraw all items with new projections
         function redraw(){
-            features.attr("d", function(d){
-                return path(circle.clip(d));
-            });
+            
 
             stars.attr("d", function(d){
                 spacePath.pointRadius(d.properties.radius);
