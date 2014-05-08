@@ -79,8 +79,8 @@
 
         //Create the base globe
         var backgroundCircle = svg.append("circle")
-            .attr('cx', width / 2)
-            .attr('cy', height / 2)
+            .attr('cx', 0)
+            .attr('cy', 0)
             .attr('r', projection.scale())
             .attr('class', 'globe')
             .attr("filter", "url(#glow)")
