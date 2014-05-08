@@ -110,7 +110,7 @@
                     },
                     type: 'Feature',
                     properties: {
-                        radius: Math.random() * 5
+                        radius: Math.random() * 10
                     }
                 });
             }
