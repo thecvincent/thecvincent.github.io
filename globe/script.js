@@ -48,7 +48,6 @@
             .scaleExtent([100, 800])
             .on("zoom", move);
 
-        var circle = d3.geo.greatCircle();
 
         var svg = d3.select("body")
             .append("svg")
@@ -99,7 +98,6 @@
                 var scale = d3.event.scale;
                 var origin = [d3.event.translate[0] * -1, d3.event.translate[1]];
                 space.scale(scale * 3);
-                circle.origin(origin);
                 var spaceOrigin = [origin[0] * -1, origin[1] * -1];
                 space.origin(spaceOrigin);
                 redraw();
