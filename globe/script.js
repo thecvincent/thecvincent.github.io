@@ -1,9 +1,7 @@
 ;(function(w, d3, undefined){
     "use strict";
 
-    var width, height,
-								speed = 1e-2,
-        start = Date.now();
+    var width, height;
     function getSize(){
         width = w.innerWidth,
         height = w.innerHeight;
@@ -36,9 +34,6 @@
             .mode("orthographic")
             .translate([width / 2, height / 2]);
 												
-								d3.timer(function() {
-    space.rotate([speed * (Date.now() - start), 0]);
-        });
 
         var scale0 = projection.scale();
 
@@ -85,16 +80,13 @@
 
         //Create the base globe
 
-
-        var g = svg.append("g"),
-            features;
+        var g = svg.append("g"),features;
 
 
 
         //Redraw all items with new projections
         function redraw(){
-            
-
+       
             stars.attr("d", function(d){
                 spacePath.pointRadius(d.properties.radius);
                 return spacePath(d);
