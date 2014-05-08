@@ -89,7 +89,14 @@
         var g = svg.append("g"),
             features;
 
+        //Add all of the countries to the globe
+        d3.json("world-countries.json", function(collection) {
+            features = g.selectAll(".feature").data(collection.features);
 
+            features.enter().append("path")
+                .attr("class", "feature")
+                .attr("d", function(d){ return path(circle.clip(d)); });
+        });
 
         //Redraw all items with new projections
         function redraw(){
