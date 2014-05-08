@@ -37,9 +37,7 @@
 
         var scale0 = projection.scale();
 
-        var path = d3.geo.path()
-            .projection(projection)
-            .pointRadius(2);
+
 
         //Setup zoom behavior
         var zoom = d3.behavior.zoom(true)
