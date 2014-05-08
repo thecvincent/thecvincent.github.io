@@ -77,17 +77,7 @@
             .attr("width", width)
             .attr("height", height);
 
-        //Create the base globe
-        var backgroundCircle = svg.append("circle")
-            .attr('cx', width / 2)
-            .attr('cy', height / 2)
-            .attr('r', projection.scale())
-            .attr('class', 'globe')
-            .attr("filter", "url(#glow)")
-            .attr("fill", "url(#gradBlue)");
 
-        var g = svg.append("g"),
-            features;
 
 
 
