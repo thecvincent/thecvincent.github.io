@@ -77,7 +77,11 @@
             .attr("width", width)
             .attr("height", height);
 
+        //Create the base globe
 
+
+        var g = svg.append("g"),
+            features;
 
 
 
@@ -99,7 +103,7 @@
                 
                 projection.scale(scale);
                 space.scale(scale * 3);
-                backgroundCircle.attr('r', scale);
+
                 path.pointRadius(2 * scale / scale0);
 
                 projection.origin(origin);
