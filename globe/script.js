@@ -79,7 +79,6 @@
 
         //Create the base globe
 
-        var g = svg.append("g"),features;
 
 
 
