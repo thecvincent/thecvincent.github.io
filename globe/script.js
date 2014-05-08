@@ -29,19 +29,10 @@
             .projection(space)
             .pointRadius(1);
 
-        //Setup path for globe
-        var projection = d3.geo.azimuthal()
-            .mode("orthographic")
-            .translate([width / 2, height / 2]);
-												
 
 
-        //Setup zoom behavior
-        var zoom = d3.behavior.zoom(true)
-            .translate(projection.origin())
-            .scale(projection.scale())
-            .scaleExtent([100, 800])
-            .on("zoom", move);
+
+
 
 
         var svg = d3.select("body")
