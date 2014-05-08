@@ -98,16 +98,8 @@
             if(d3.event){
                 var scale = d3.event.scale;
                 var origin = [d3.event.translate[0] * -1, d3.event.translate[1]];
-                
-                projection.scale(scale);
                 space.scale(scale * 3);
-
-                path.pointRadius(2 * scale / scale0);
-
-                projection.origin(origin);
                 circle.origin(origin);
-                
-                //globe and stars spin in the opposite direction because of the projection mode
                 var spaceOrigin = [origin[0] * -1, origin[1] * -1];
                 space.origin(spaceOrigin);
                 redraw();
