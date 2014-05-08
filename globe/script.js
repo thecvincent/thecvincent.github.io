@@ -58,7 +58,7 @@
                     .on("dblclick.zoom", null);
 
         //Create a list of random stars and add them to outerspace
-        var starList = createStars(300);
+        var starList = createStars(3000);
                 
         var stars = svg.append("g")
             .selectAll("g")
