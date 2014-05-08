@@ -37,7 +37,7 @@
             .translate([width / 2, height / 2]);
 												
 								d3.timer(function() {
-    projection.rotate([speed * (Date.now() - start), 0]);
+    space.rotate([speed * (Date.now() - start), 0]);
         });
 
         var scale0 = projection.scale();
