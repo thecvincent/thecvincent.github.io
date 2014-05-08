@@ -81,7 +81,7 @@
         var backgroundCircle = svg.append("circle")
             .attr('cx', 0)
             .attr('cy', 0)
-            .attr('r', projection.scale())
+            .attr('r', 0)
             .attr('class', 'globe')
             .attr("filter", "url(#glow)")
             .attr("fill", "url(#gradBlue)");
