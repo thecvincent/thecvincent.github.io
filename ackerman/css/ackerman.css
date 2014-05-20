@@ -1,0 +1,330 @@
+
+@font-face {
+	font-family: "DinPRO-Regular";
+  src: url('../type/DINWeb.eot'); 
+  src: url('../type/DINWeb.woff') format('woff');
+
+}
+
+@font-face {
+	font-family: "DinPRO-Medium";
+  src: url('../type/DINWeb-Medium.eot'); 
+  src: url('../type/DINWeb-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: "DinPRO-Bold";
+	src: url('/websvcs/templates/fonts/ffdin/DINWeb-Bold.woff');
+}
+
+a{
+	color:#008542;
+}
+p{
+	line-height:1.5em;
+	font-size:1.5rem;
+}
+h1 {
+font-size: 3rem;
+margin: 0;
+margin-bottom:1rem;
+color: #008542;
+}
+h2 {
+font-size: 1.8rem;
+padding-top:1rem;
+padding-bottom:.3rem;
+margin-bottom:1rem;
+color: #008542;
+font-weight:bold;
+width:100%;
+border-bottom:1px solid #D5D2CA;
+}
+h3 {
+font-size: 1.5rem;
+padding-top:1rem;
+padding-bottom:.2rem;
+color: #008542;
+font-weight:bold;
+border-bottom:1px solid #D5D2CA;
+
+}
+#branding{
+	background-color:#C75B12;
+background-image: -webkit-gradient(linear,	left top,	left bottom,	color-stop(0, #E98300), color-stop(1, #e57025));
+background-image: -o-linear-gradient(bottom, #E98300 0%, #e57025 100%);
+background-image: -moz-linear-gradient(bottom, #E98300 0%, #e57025 100%);
+background-image: -webkit-linear-gradient(bottom, #E98300 0%, #e57025 100%);
+background-image: -ms-linear-gradient(bottom, #E98300 0%, #e57025 100%);
+background-image: linear-gradient(to bottom, #E98300 0%, #e57025 100%);
+padding-top: 20px;
+padding-bottom: 20px;
+text-align:center;
+}
+.navbar-form .btn{
+	background-color:#C75B12;
+background-image: -webkit-gradient(linear,	left top,	left bottom,	color-stop(0, #E98300), color-stop(1, #e57025));
+background-image: -o-linear-gradient(bottom, #E98300 0%, #e57025 100%);
+background-image: -moz-linear-gradient(bottom, #E98300 0%, #e57025 100%);
+background-image: -webkit-linear-gradient(bottom, #E98300 0%, #e57025 100%);
+background-image: -ms-linear-gradient(bottom, #E98300 0%, #e57025 100%);
+background-image: linear-gradient(to bottom, #E98300 0%, #e57025 100%);
+color:white;
+padding:4px 10px;
+}
+.navbar-form .form-control{
+	height:30px;
+}
+@media (min-width: 768px){
+.navbar-form.navbar-right:last-child {
+padding-top: 5px;
+}}
+
+@media (max-width: 768px){
+.navbar-form .form-control{
+	width:50%;
+	float:left;
+}
+.navbar-nav{
+	margin:0;
+}
+.navbar-nav .open .dropdown-menu > li > a {
+white-space: normal;
+}
+.navbar-form .form-group {
+margin-bottom: 0;
+}
+}
+
+.navbar-toggle .icon-bar{
+	background-color:black;
+}
+
+#utd-logo {
+height: 70px;
+width: auto;
+}
+#ackerman-logo {
+height: 70px;
+width: auto;
+}
+.navigation{
+margin-bottom: 40px;
+border-bottom: solid 3px black;
+box-shadow: 0px 5px 5px #999;
+background-color:#fbfbfb;
+background-image: -webkit-gradient(linear,	left top,	left bottom,	color-stop(0, #d8d8d8
+), color-stop(1, #fbfbfb));
+background-image: -o-linear-gradient(bottom, #d8d8d8 0%, #fbfbfb 100%);
+background-image: -moz-linear-gradient(bottom, #d8d8d8 0%, #fbfbfb 100%);
+background-image: -webkit-linear-gradient(bottom, #d8d8d8 0%, #fbfbfb 100%);
+background-image: -ms-linear-gradient(bottom, #d8d8d8 0%, #fbfbfb 100%);
+background-image: linear-gradient(to bottom, #d8d8d8 0%, #fbfbfb 100%);
+}
+.navbar {
+	min-height:0;
+	margin:0;
+}
+.navbar-nav>li>a{
+	padding-top:9px;
+	padding-bottom:9px;
+}
+.navbar-form{
+	margin-top:3px;
+	margin-bottom:3px;
+}
+.navbar-nav {
+	background-color:transparent;
+}
+.navbar-nav, .navbar-nav>li>a {
+		font-family:'DinPRO-Medium',arial,sans-serif;
+color: black;
+	font-size:18px;
+}
+.navbar-collapse{
+	padding:0;
+}
+.container-fluid{
+	padding:0;
+}
+
+footer{
+	background-color:#464645;
+	color:white;
+	padding:1em;
+	margin-top:2em;
+	padding-bottom:2em;
+}
+footer img{
+	width:35px;
+	height:35px;
+	margin-left:.5em;
+}
+.action{
+			background-color:#e57025;
+	background-image: -webkit-gradient(linear,	left top,	left bottom,	color-stop(0, #E98300), color-stop(1, #e57025));
+background-image: -o-linear-gradient(bottom, #E98300 0%, #e57025 100%);
+background-image: -moz-linear-gradient(bottom, #E98300 0%, #e57025 100%);
+background-image: -webkit-linear-gradient(bottom, #E98300 0%, #e57025 100%);
+background-image: -ms-linear-gradient(bottom, #E98300 0%, #e57025 100%);
+background-image: linear-gradient(to bottom, #E98300 0%, #e57025 100%);
+	font-family:"DinPRO-Medium",arial,sans-serif;
+	font-size:1.5em;
+	color:white;
+	text-align:center;
+	padding:.25em;
+	margin-top:.8em;
+	margin-bottom:.8em;
+	border-radius:5px;
+}
+.sidebar-facebook{width:20%; margin-right:2%;}
+.sidebar-twitter{width:20%; margin-right:2%;}
+.sidebar-mailing{width:54%;}
+.sidebar-gift a{color:white;}
+
+@media (min-width: 420px) and (max-width: 992px){
+.sidebar-facebook{width:10%; margin-right:2%;  float:left; margin-top: 1em; margin-bottom:1em;}
+.sidebar-twitter{width:10%; margin-right:2%; float:left; margin-top: 1em; margin-bottom:1em;}
+.sidebar-mailing{width:27%; margin-right:2%; float:left; margin-top: 1em; margin-bottom:1em;}
+.sidebar-gift{width:47%; float:left; clear:right; padding:1em;}
+}
+
+
+.padding-zero{
+}
+.announce{
+	clear:both;
+}
+.announce-heading{
+background-color: #464645;
+color: white;
+font-family: 'DinPRO-Regular',arial,sans-serif;
+font-size: 1.1em;
+padding: .3em;
+width: 100%;
+display: block;
+margin-bottom: .6em;
+padding-left: 10px;
+padding-bottom: 2px;
+padding-top: 5px;
+}
+.announce p{
+	font-size:1.3rem;
+	padding-left:0;
+	line-height:1.3em;
+}
+.announce hr{
+color: #464645;
+margin-top:5px;
+margin-bottom:10px;
+border-bottom:1px solid #464645;
+}
+.covering-caption{
+	display:block; 
+	background-color:#111; 
+	color:white; 
+	padding:2%; 
+	width:100%; 
+	margin-top:-30%; 
+	margin-bottom:18%;
+	opacity:.75; 
+	font-family:'DinPRO-Regular',arial,sans-serif;
+	font-size:1.3em;
+	text-align:right;
+}
+
+
+
+.sub-menu ul{
+	list-style:none;
+	margin-left:0;
+	padding:0;
+}
+.sub-menu li{
+	padding-top:.5em;
+	padding-bottom:.5em;
+	padding-left:.5em;
+	border-bottom:1px solid #9E9E9E;
+}
+.sub-menu li:last-child{
+	border-bottom:none;
+}
+.sub-menu li a{
+	color:black;
+	font-size:1em;
+	font-weight:bold;
+}
+.sub-menu .selected{
+	background-color:#e57025;
+	background-image: -webkit-gradient(linear,	left top,	left bottom,	color-stop(0, #E98300), color-stop(1, #e57025));
+background-image: -o-linear-gradient(bottom, #E98300 0%, #e57025 100%);
+background-image: -moz-linear-gradient(bottom, #E98300 0%, #e57025 100%);
+background-image: -webkit-linear-gradient(bottom, #E98300 0%, #e57025 100%);
+background-image: -ms-linear-gradient(bottom, #E98300 0%, #e57025 100%);
+}
+.sub-menu .selected a{
+	color:white;
+}
+.dropdown-menu{
+	padding:0;
+}
+.dropdown-menu>li>a{
+		font-family:"DinPRO-Medium",arial,sans-serif;
+	font-size:18px;
+	color: #fff;
+background: #464645;
+}
+.dropdown-menu>li{
+	border-bottom:1px solid white;
+}
+.dropdown-menu>li:last-child{
+	border:none;}
+.dropdown-menu>li>a:hover{
+color: #fff;
+background: #2B2B2A;
+}
+.nav>li>a:hover, .nav>li>a:focus{
+		background-color:#dcdcdc;
+	background-image: -webkit-gradient(linear,	left top,	left bottom,	color-stop(0, #ababab
+), color-stop(1, #dcdcdc));
+background-image: -o-linear-gradient(bottom, #ababab 0%, #dcdcdc 100%);
+background-image: -moz-linear-gradient(bottom, #ababab 0%, #dcdcdc 100%);
+background-image: -webkit-linear-gradient(bottom, #ababab 0%, #dcdcdc 100%);
+background-image: -ms-linear-gradient(bottom, #ababab 0%, #dcdcdc 100%);
+background-image: linear-gradient(to bottom, #ababab 0%, #dcdcdc 100%);
+color:black;
+}
+.carousel-caption{
+	bottom:0;
+	padding:1em;
+	background-color: black;
+background-color: rgba(0, 0, 0, 0.6);
+left:0;
+right:0;
+text-align:left;
+}
+.well{
+	margin-top:20px;
+}
+.nav>li>a{
+	padding:10px 15px;
+}
+.navbar-form{
+	margin:0;
+}
+
+@media (max-width: 768px) {
+.carousel-caption{
+	position:static;
+}
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+.img-responsive{
+	margin-bottom:1em;
+}
+.add{
+}
