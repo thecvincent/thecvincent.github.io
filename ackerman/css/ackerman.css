@@ -1,9 +1,8 @@
-
+/* Ze Fonts! */
 @font-face {
 	font-family: "DinPRO-Regular";
   src: url('../type/DINWeb.eot'); 
   src: url('../type/DINWeb.woff') format('woff');
-
 }
 
 @font-face {
@@ -17,11 +16,8 @@
 	src: url('/websvcs/templates/fonts/ffdin/DINWeb-Bold.woff');
 }
 
-a{
-	color:#008542;
-}
-p{
-	line-height:1.5em;
+a{	color:#008542; }
+p{	line-height:1.5em;
 	font-size:1.5rem;
 }
 h1 {
